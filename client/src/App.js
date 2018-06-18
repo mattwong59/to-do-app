@@ -7,10 +7,25 @@ class App extends Component {
     return (
       <div className="App">
           <h1>To Do App</h1>
+          <form>
+            
+          </form>
           <div className="columns">
-            <h2>One</h2>
-            <h2>Two</h2>
-            <h2>Three</h2>
+            <div>
+              <h2>Daily</h2>
+              {/* <input name="short term"> */}
+            </div>
+            <div>
+              <h2>Core</h2>
+            </div>
+            <div>
+              <h2>Short-term</h2>
+            </div>
+            <div>
+              <h2>Long-term</h2>
+            </div>
+            
+
           </div>
       </div>
     );
